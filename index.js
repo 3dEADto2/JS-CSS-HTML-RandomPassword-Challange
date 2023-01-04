@@ -45,7 +45,7 @@ function randomNumber (limit) {
 }
 
 function disableEl () {
-    console.log('disable');
+    textarea.value = 'Create Password';
     copiedTextEl.style.opacity = '0%';
     clicked = false;
 }
